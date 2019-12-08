@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <EditText
+        android:id="@+id/edtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="CATEGORY ID"
+        android:textSize="30dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="CATEGORY NAME"
+        android:textSize="30dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
